@@ -1,1 +1,2 @@
 # -TP-JavaScript-Fleitas-Ezequiel-
+Proyecto realizado para la materia de Taller de Programación para la Tecnicatura de Desarrollo de Software Multiplataforma del Instituto Politécnico Formosa. 03/05/24
