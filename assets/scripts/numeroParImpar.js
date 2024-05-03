@@ -1,5 +1,5 @@
 let numero = parseInt(prompt("Escriba su número"));
-switch (numero % 2) {
+switch (Math.abs(numero % 2)) {
     case 0:
         console.log("Sú número es par")
         break;
