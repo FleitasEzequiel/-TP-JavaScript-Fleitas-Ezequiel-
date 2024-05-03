@@ -1,5 +1,5 @@
 let edad = (prompt("Escriba edad."));
-if (edad < 0 || edad > 120){
+if (edad < 0 || edad > 120){ //Conocí casos de gente que vivió más de 100 años
     console.log("La edad introducida no es válida.")
 }
 else if (edad <= 12){

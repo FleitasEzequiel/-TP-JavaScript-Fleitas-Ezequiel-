@@ -1,3 +1,4 @@
+//Yo pensé que era de órden ascendente y descendente, disculpe.
 let numero1 = Number.parseFloat(prompt("Escriba el primer número"));
 let numero2 = Number.parseFloat(prompt("Escriba el segundo número"));
 let numero3 = Number.parseFloat(prompt("Escriba el tercer número"));
