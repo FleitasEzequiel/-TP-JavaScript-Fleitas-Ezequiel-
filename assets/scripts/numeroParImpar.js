@@ -1,7 +1,12 @@
-let numero = prompt("Escriba su número")
-if (numero % 2 == 0){
-    console.log("Su número es par")
-} else {"Su número es impar"}
-if (typeof(numero) != int){
-    console.log("No es un número")
+let numero = parseInt(prompt("Escriba su número"));
+switch (numero % 2) {
+    case 0:
+        console.log("Sú número es par")
+        break;
+    case 1:
+        console.log("Su número es impar")
+        break;
+    default:
+        console.log("Cáracter no permitido.")
+        break;
 }
