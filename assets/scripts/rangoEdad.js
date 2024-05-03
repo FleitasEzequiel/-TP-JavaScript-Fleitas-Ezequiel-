@@ -1,6 +1,6 @@
 let edad = prompt("Escriba edad.")
 
-if (edad < 0 || edad > 110){
+if (edad < 0 || edad > 120){
     console.log("La edad introducida no es válida.")
 }
 else if (edad <= 12){
@@ -15,6 +15,6 @@ else if (edad >= 20 && edad <= 59){
 else if (edad >= 60){
     console.log("Es un adulto mayor.")
 };
-if (typeof(edad) != string){
+if (typeof(edad) != "int"){
     console.log("No es un número.")
 } 
