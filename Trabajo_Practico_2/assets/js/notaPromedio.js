@@ -9,20 +9,20 @@ if ((nota1 < 0 || nota1>10) || (nota2 <0 || nota2>10) || (nota3<0 || nota3> 10))
 }
 else{
 let promedio = (nota1 + nota2 + nota3) / 3;
-switch (Math.round(promedio)) {  
-        case (1) || (2) || (3):
+switch (true) {  
+        case promedio >= 1 && promedio <= 3:
             console.log("NOTA INSUFICIENTE")
             break;
-        case (4) || (5):
+        case promedio >= 4 && promedio <=5:
             console.log("NOTA REGULAR")
             break;
-        case (6) || (7):
+        case promedio >= 6 && promedio <=7:
             console.log("NOTA BUENA")
             break;
-        case (8) || (9):
+        case promedio >= 8 && promedio <=9:
             console.log("NOTA MUY BUENA")
             break;
-        case 10:
+        case promedio = 10:
             console.log("NOTA SOBRESALIENTE")
             break;
         default:
