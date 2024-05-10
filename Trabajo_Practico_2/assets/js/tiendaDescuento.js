@@ -4,7 +4,7 @@ let precioCantidad = precio * cantidad;
 let precioTotal;
 if (isNaN(cantidad) || isNaN(precio)){
     console.log("Ingrese un valor válido")
-} else{if ((cantidad < 1) && (precio < 1)){ "Ingrese un valor mayor a 1"}
+} else{if ((cantidad < 1) || (precio < 1)){ "Ingrese un valor mayor a 1"}
 else{
 if (cantidad >= 10 && precioCantidad >= 20000){
     precioTotal = precioCantidad - (precioCantidad * 0.15);
